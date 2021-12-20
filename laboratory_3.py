@@ -1,5 +1,3 @@
-from fractions import Fraction
-from typing import List, Any
 import numpy as np
 
 
@@ -18,8 +16,8 @@ def AbsorptionMarkov():
           print ()
 
     print("Transition matrix:")
-    transition_matrix = printMatrix(P_matrix)
-    print(transition_matrix)
+    printMatrix(P_matrix)
+
 
     # 1.2 Fundamental_matrix
 
@@ -93,8 +91,8 @@ def RegularMarkov():
           print ()
 
     print("Transition matrix:")
-    transition_matrix = printMatrix(P_matrix)
-    # print(transition_matrix)
+    printMatrix(P_matrix)
+
 
     # 2.2
     w = vector
